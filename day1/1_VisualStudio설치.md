@@ -5,18 +5,18 @@
 1. **Visual Studio 다운로드**
    - [Visual Studio 공식 홈페이지](https://visualstudio.microsoft.com/ko/downloads/)에 접속합니다.
    - "무료 다운로드" 버튼을 클릭하여 "Community" 버전을 다운로드합니다.
-   ![visual studio 다운로드 페이지](image.png)
+   ![visual studio 다운로드 페이지](img/image.png)
 
 2. **설치 프로그램 실행**
    - 다운로드한 설치 파일을 실행합니다.
    - "C++를 사용한 데스크톱 개발" 워크로드를 선택합니다. (C언어도 C++ 워크로드에 포함되어 있습니다)
-      ![alt text](image-1.png)
+      ![alt text](img/image-1.png)
    - "설치" 버튼을 눌러 설치를 진행합니다.
    
 
 3. **설치 완료 후 Visual Studio 실행**
    - 설치가 완료되면 Visual Studio를 실행합니다.
-   ![alt text](image-2.png)
+   ![alt text](img/image-2.png)
 ---
 
 ## 2. 새 프로젝트 만들기
@@ -24,19 +24,19 @@
 1. **새 프로젝트 생성**
    - Visual Studio를 실행한 후, "새 프로젝트 만들기"를 클릭합니다.
    - "빈 프로젝트(Empty Project)"를 선택한 후 "다음"을 클릭합니다.
-      ![alt text](image-3.png)
+      ![alt text](img/image-3.png)
 
 2. **솔루션 및 프로젝트 이름 지정**
    - 솔루션 이름을 입력합니다(예: clang)
    - 프로젝트 이름을 입력합니다(예: helloWorld).
    - 저장 위치를 지정한 후 "만들기"를 클릭합니다.
-      ![alt text](image-4.png)
+      ![alt text](img/image-4.png)
 
 3. **C 소스 파일 추가**
    - 솔루션 탐색기에서 "소스 파일" 폴더를 마우스 오른쪽 버튼으로 클릭 → "추가" → "새 항목"을 선택합니다.
-      ![alt text](image-5.png)
+      ![alt text](img/image-5.png)
    - "C++ 파일(.cpp)"이 기본으로 보이지만, 파일 이름을 반드시 `.c`로 끝나게 입력하세요. (예: `main.c`)
-   ![alt text](image-6.png)
+   ![alt text](img/image-6.png)
    - "추가"를 클릭합니다.
 
 ---
@@ -67,7 +67,7 @@ int main() {
 
 2. **실행 결과 확인**
    - 콘솔 창에 `Hello, World!`가 출력되는지 확인합니다.
-   ![alt text](image-7.png)
+   ![alt text](img/image-7.png)
 ---
 
 ## 5. Visual Studio의 화면 구성
@@ -89,11 +89,11 @@ Visual Studio에서는 개발 환경을 본인 취향에 맞게 다양하게 꾸
 1. **테마 변경**
    - 상단 메뉴에서 `도구 > 옵션`을 클릭합니다.
    - `환경 > 일반`에서 테마(밝은 테마, 어두운 테마 등)를 선택할 수 있습니다.
-      ![alt text](image-8.png)
+      ![alt text](img/image-8.png)
 2. **글꼴 및 글자 크기 변경**
    - `도구 > 옵션`에서 `환경 > 글꼴 및 색`을 선택합니다.
    - '표시할 텍스트'에서 '코드 편집기'를 선택하면, 글꼴(Font)과 크기(Size)를 원하는 대로 변경할 수 있습니다.
-   ![alt text](image-9.png)
+   ![alt text](img/image-9.png)
 ---
 
 ## 7. Visual Studio 자주 사용하는 단축키
@@ -134,4 +134,4 @@ Visual Studio에서는 개발 환경을 본인 취향에 맞게 다양하게 꾸
 
 1. 솔루션을 마우스 오른쪽 버튼으로 클릭하고, '속성'을 선택합니다.
 2. '시작 프로젝트' 항목에서 '현재 선택 영역'을 체크하면 현재 편집중인 프로젝트가 실행됩니다.
-![alt text](image-15.png)
+![alt text](img/image-15.png)

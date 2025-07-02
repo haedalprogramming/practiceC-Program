@@ -10,13 +10,13 @@ xcode-select --install
 
 - 이 도구는 C 컴파일러(gcc/clang)를 포함하고 있습니다.
 - 설치 창이 뜨면 "설치"를 눌러주세요.
-![alt text](image-13.png)
+![alt text](img/image-13.png)
 ---
 
 ## 2. VSCode 설치
 
 - [VSCode 공식 사이트](https://code.visualstudio.com/)에서 Mac용 VSCode를 다운로드하여 설치하세요.
-![alt text](image-11.png)
+![alt text](img/image-11.png)
 ---
 
 ## 3. VSCode에서 C/C++ 확장 설치
@@ -24,7 +24,7 @@ xcode-select --install
 1. VSCode를 실행합니다.
 2. 왼쪽 메뉴에서 Extensions(확장) 아이콘(네모 4개)을 클릭합니다.
 3. 검색창에 `C/C++`를 입력하고, `C/C++ Extension Pack`을 설치합니다.
-![alt text](image-12.png)
+![alt text](img/image-12.png)
 ---
 
 ## 4. C 파일 생성 및 컴파일
@@ -86,4 +86,3 @@ gcc hello.c -o hello
 }
 ```
 3. 이제 `Cmd + Shift + B`를 누르면 자동으로 컴파일 및 실행됩니다.
----

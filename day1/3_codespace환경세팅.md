@@ -2,23 +2,23 @@
 
 ## 1. GitHub 계정 만들기
 - [GitHub 가입 페이지](https://github.com/join)에서 계정을 생성합니다.
-![alt text](image-19.png)
+![alt text](img/image-19.png)
 
 ## 2. 새 레포지토리(저장소) 생성하기
 1. [GitHub 메인 페이지](https://github.com)에 로그인합니다.
 2. 오른쪽 상단의 `+` 버튼을 클릭하고, `New repository`를 선택합니다.
-![alt text](image-20.png)
+![alt text](img/image-20.png)
 3. 저장소 이름(예: `gbsw_c`)을 입력하고, `Public` 또는 `Private`을 선택합니다.
 4. `Create repository` 버튼을 클릭합니다.
-![alt text](image-21.png)
+![alt text](img/image-21.png)
 
 ## 3. Codespaces 생성하기
 1. 방금 만든 저장소의 메인 페이지로 이동합니다.
-![alt text](image-22.png)
+![alt text](img/image-22.png)
 2. `Create a codespace` 버튼을 클릭합니다.
-![alt text](image-23.png)
+![alt text](img/image-23.png)
 3. 초록색 `Create new codespace` 버튼을 클릭합니다.
-![alt text](image-24.png)
+![alt text](img/image-24.png)
 4. 잠시 기다리면 웹 브라우저에서 Visual Studio Code 환경이 자동으로 실행됩니다.
 
 ## 4. C 컴파일러 설치 확인
@@ -26,7 +26,7 @@
   ```bash
   gcc --version
   ```
-  ![alt text](image-25.png)
+  ![alt text](img/image-25.png)
 - 만약 설치되어 있지 않다면, 아래 명령어로 설치합니다.
   ```bash
   sudo apt update
@@ -37,7 +37,7 @@
 
 1. 왼쪽 메뉴에서 Extensions(확장) 아이콘(네모 4개)을 클릭합니다.
 2. 검색창에 `C/C++`를 입력하고, `C/C++ Extension Pack`을 설치합니다.
-![alt text](image-26.png)
+![alt text](img/image-26.png)
 ---
 
 ## 6. C 파일 생성 및 컴파일
@@ -97,4 +97,3 @@ gcc hello.c -o hello
 }
 ```
 3. 이제 `Cmd + Shift + B`를 누르면 자동으로 컴파일 및 실행됩니다.
----
