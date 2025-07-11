@@ -3,7 +3,6 @@
 int main() {
     double a, b, answer;
     char op;
-    int quit = 0;
 
     printf("============================\n");
     printf("   [C 계산기 프로그램]   \n");
@@ -12,13 +11,12 @@ int main() {
     printf("0 / 0을 입력하면 프로그램이 종료됩니다.\n");
     printf("============================\n");
 
-    while (!quit) {
+    while (1) {
         printf("\n>> ");
         int result = scanf("%lf %c %lf", &a, &op, &b);
-        if (result == EOF) break;
         if (result != 3) {
             printf("입력 형식이 올바르지 않습니다. 예: 1 + 3\n");
-            while (getchar() != '\n' && !feof(stdin));
+            while (getchar() != '\n');
             continue;
         }
         if (op != '+' && op != '-' && op != '*' && op != '/') {
