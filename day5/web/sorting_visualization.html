@@ -206,7 +206,7 @@
             </div>
         </div>
         
-        <div class="step-info" id="stepInfo">🎮 시작하려면 "새 배열 생성" 버튼을 누르고 정렬 알고리즘을 선택하세요!</div>
+        <div class="step-info" id="stepInfo">시작하려면 "새 배열 생성" 버튼을 누르고 정렬 알고리즘을 선택하세요!</div>
         
         <div class="array-container" id="arrayContainer">
             <!-- 배열 막대들이 여기에 동적으로 생성됩니다 -->
@@ -251,7 +251,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             generateArray();
             updateAlgorithmInfo();
-            updateStepInfo("🎮 준비 완료! 정렬 알고리즘을 선택하고 '정렬 시작' 버튼을 눌러보세요.");
+            updateStepInfo("준비 완료! 정렬 알고리즘을 선택하고 '정렬 시작' 버튼을 눌러보세요.");
             
             document.getElementById('algorithmSelect').addEventListener('change', updateAlgorithmInfo);
             document.getElementById('speedSlider').addEventListener('input', function() {
@@ -272,7 +272,7 @@
             }
             originalArray = [...array];
             renderArray();
-            updateStepInfo("🎲 새 배열이 생성되었습니다! 정렬을 시작해보세요.");
+            updateStepInfo("새 배열이 생성되었습니다! 정렬을 시작해보세요.");
         }
         
         function resetArray() {
@@ -283,7 +283,7 @@
             
             array = [...originalArray];
             renderArray();
-            updateStepInfo("🔄 배열이 초기화되었습니다! 다시 정렬해보세요.");
+            updateStepInfo("배열이 초기화되었습니다! 다시 정렬해보세요.");
         }
         
         function renderArray() {
@@ -415,7 +415,7 @@
             
             if (isAnimating) {
                 document.getElementById(`bar-0`).classList.add('sorted');
-                updateStepInfo("🎉 버블 정렬 완료! 새 배열로 다시 시도해보세요.");
+                updateStepInfo("버블 정렬 완료! 새 배열로 다시 시도해보세요.");
                 setButtonsState(false);
             }
         }
@@ -450,7 +450,7 @@
             
             if (isAnimating) {
                 document.getElementById(`bar-${n - 1}`).classList.add('sorted');
-                updateStepInfo("🎉 선택 정렬 완료! 새 배열로 다시 시도해보세요.");
+                updateStepInfo("선택 정렬 완료! 새 배열로 다시 시도해보세요.");
                 setButtonsState(false);
             }
         }
@@ -493,7 +493,7 @@
             }
             
             if (isAnimating) {
-                updateStepInfo("🎉 삽입 정렬 완료! 새 배열로 다시 시도해보세요.");
+                updateStepInfo("삽입 정렬 완료! 새 배열로 다시 시도해보세요.");
                 setButtonsState(false);
             }
         }
