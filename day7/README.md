@@ -1,4 +1,5 @@
 # Day7
+0. [AI활용 학습 가이드](https://github.com/haedalprogramming/learningWithAi)
 1. [전처리기](1_전처리기.md)
 2. [헤더파일](2_헤더파일.md)
 3. [라이브러리](3_라이브러리.md)

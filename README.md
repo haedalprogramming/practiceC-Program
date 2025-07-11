@@ -67,6 +67,7 @@
 6. [프로그래밍 실습 6](day6/6_프로그래밍%20실습%206.md)
 
 ### Day7
+0. [AI활용 학습 가이드](https://github.com/haedalprogramming/learningWithAi)
 1. [전처리기](day7/1_전처리기.md)
 2. [헤더파일](day7/2_헤더파일.md)
 3. [라이브러리](day7/3_라이브러리.md)
