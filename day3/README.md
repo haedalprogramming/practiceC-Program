@@ -1,4 +1,4 @@
-### Day3
+# Day3
 1. [while문](1_while문.md)
 2. [do-while문](2_do%20while문.md)
 3. [for문](3_for문.md)
